@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:background="@drawable/circle_bg"
+        android:layout_width="60dip"
+        android:layout_height="60dip">
+        <ImageView
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_camera_alt"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">MyDisk</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!--actions-->
+    <string name="uploading">Uploading</string>
+    <string name="data_in_loading">Data in loading</string>
+
+    <!--errors-->
+    <string name="unknown_error">Unknown Error</string>
+    <string name="service_error">Service Error,please try later</string>
+    <string name="network_error">Network Error</string>
+    <string name="network_not_connected">Network Not Connected</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+    <string name="my_albums">My</string>
+    <string name="system_albums">System</string>
+    <string name="app_can_not_work_without_the_permission">Sorry,APP can not work without the permission</string>
+    <string name="decrypting_media">Decrypting Media</string>
+
+    <string name="loading">Loading...</string>
+    <string name="no_more_data">No more data...</string>
+    <string name="create">Create</string>
+    <string name="delete">Delete</string>
+    <string name="deleting">Deleting</string>
+    <string name="delete_success">Delete Success</string>
+    <string name="update">Update</string>
+    <string name="share">Share</string>
+    <string name="share_to">Share To</string>
+    <string name="info">Info</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="submit">SUBMIT</string>
+    <string name="cancel">CANCEL</string>
+    <string name="warning">Warning</string>
+    <string name="all">All</string>
+    <string name="skip">skip</string>
+
+    <string name="cloud_share">Share</string>
+
+
+    <string name="setting">Setting</string>
+    <string name="star_us">Star Us</string>
+    <string name="help">Help</string>
+    <string name="keep">Keep</string>
+    <string name="unknown">Unknown</string>
+    <string name="detecting">detecting</string>
+
+
+    <string name="similar_photos_detection">Similar Photos detection</string>
+    <string name="useless_photos_detection">Useless Photos detection</string>
+
+
+    <string name="delete_photo_success_tips">Delete media success!</string>
+    <string name="delete_photo_fail_tips">Delete media fail!</string>
+    <string name="delete_photo_confirm_tips">Delete the selected media?</string>
+    <string name="delete_photo_warning_tips">Warning:We could not recover the medias if you delete them now~</string>
+
+    <!--media-->
+    <string name="time">Time</string>
+    <string name="size">Size</string>
+    <string name="resolution">Resolution</string>
+    <string name="location">Location</string>
+    <string name="path">Path</string>
+
+    <!--left menu-->
+    <string name="albums">Albums</string>
+    <string name="medias">Medias</string>
+    <string name="photos">Photos</string>
+    <string name="videos">Videos</string>
+    <string name="photo_tools">Photo Tools</string>
+
+    <!--album-->
+    <string name="create_album_success_tips">Create album success~</string>
+    <string name="create_album_fail_tips">Create album fail~</string>
+
+    <string name="update_album_success_tips">Update album success~</string>
+    <string name="update_album_fail_tips">Update album fail~</string>
+
+    <string name="delete_album_success_tips">Delete album success!</string>
+    <string name="delete_album_fail_tips">Delete album fail!</string>
+    <string name="delete_album_message_tips">Delete the selected album?</string>
+    <string name="delete_medias_message_tips">Delete the selected medias?</string>
+    <string name="photo_trans_to_album_mode_tips">Which way would you like to trans with this medias?</string>
+    <string name="move">Move</string>
+    <string name="copy">Copy</string>
+
+    <string name="kindly_reminder">Kindly Reminder</string>
+    <string name="add_medias_into_album_tips">Medias Adding...</string>
+
+    <string name="photo_delete_from_album_mode_tips">Would you want to recover photos to original path if delete them?</string>
+    <string name="delete_with_recover">Delete and recover</string>
+    <string name="delete_without_recover">Delete without recover</string>
+    <string name="delete_without_recover_warning">Delete photos and can not recover them anymore,are your sure?</string>
+    <string name="album_name_can_not_be_empty">Album name can not be empty</string>
+    <string name="delete_album_with_recover_tips">We are recover medias to system album</string>
+    <string name="medias_added_tips">Medias added success!</string>
+
+    <string name="remove_from_album">Remove from album</string>
+
+    <string name="device_switching">Device switching</string>
+
+    <string name="device_changed">Device switch to</string>
+
+    <string name="one_step">One Step To Cloud</string>
+
+</resources>

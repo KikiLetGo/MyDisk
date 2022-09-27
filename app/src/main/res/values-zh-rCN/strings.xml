@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">我的网盘</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!--actions-->
+    <string name="uploading">Uploading</string>
+    <string name="data_in_loading">Data in loading</string>
+
+    <!--errors-->
+    <string name="unknown_error">Unknown Error</string>
+    <string name="service_error">Service Error,please try later</string>
+    <string name="network_error">Network Error</string>
+    <string name="network_not_connected">Network Not Connected</string>
+
+    <string name="menu_home">主页</string>
+    <string name="menu_gallery">相册</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+    <string name="my_albums">我的</string>
+    <string name="system_albums">系统</string>
+    <string name="app_can_not_work_without_the_permission">抱歉，App不能在没有这些权限下运行</string>
+    <string name="decrypting_media">Decrypting Media</string>
+
+    <string name="loading">加载中...</string>
+    <string name="no_more_data">没有更多数据...</string>
+    <string name="create">创建</string>
+    <string name="delete">删除</string>
+    <string name="deleting">删除中</string>
+    <string name="delete_success">删除 成功</string>
+    <string name="update">更新</string>
+    <string name="share">分享</string>
+    <string name="share_to">分享到</string>
+    <string name="info">信息</string>
+    <string name="confirm">确认</string>
+    <string name="submit">提交</string>
+    <string name="cancel">取消</string>
+    <string name="warning">敬告</string>
+    <string name="all">全部</string>
+    <string name="skip">跳过</string>
+
+    <string name="cloud_share">分享</string>
+
+
+    <string name="setting">设置</string>
+    <string name="star_us">Star Us</string>
+    <string name="help">Help</string>
+    <string name="keep">Keep</string>
+    <string name="unknown">Unknown</string>
+    <string name="detecting">detecting</string>
+
+
+    <string name="similar_photos_detection">Similar Photos detection</string>
+    <string name="useless_photos_detection">Useless Photos detection</string>
+
+
+    <string name="delete_photo_success_tips">Delete media success!</string>
+    <string name="delete_photo_fail_tips">Delete media fail!</string>
+    <string name="delete_photo_confirm_tips">Delete the selected media?</string>
+    <string name="delete_photo_warning_tips">Warning:We could not recover the medias if you delete them now~</string>
+
+    <!--media-->
+    <string name="time">时间</string>
+    <string name="size">尺寸</string>
+    <string name="resolution">分辨率</string>
+    <string name="location">位置</string>
+    <string name="path">路径</string>
+
+    <!--left menu-->
+    <string name="albums">相册</string>
+    <string name="medias">媒体</string>
+    <string name="photos">图片</string>
+    <string name="videos">视频</string>
+    <string name="photo_tools">照片工具</string>
+
+    <!--album-->
+    <string name="create_album_success_tips">Create album success~</string>
+    <string name="create_album_fail_tips">Create album fail~</string>
+
+    <string name="update_album_success_tips">Update album success~</string>
+    <string name="update_album_fail_tips">Update album fail~</string>
+
+    <string name="delete_album_success_tips">Delete album success!</string>
+    <string name="delete_album_fail_tips">Delete album fail!</string>
+    <string name="delete_album_message_tips">Delete the selected album?</string>
+    <string name="delete_medias_message_tips">Delete the selected medias?</string>
+    <string name="photo_trans_to_album_mode_tips">Which way would you like to trans with this medias?</string>
+    <string name="move">移动</string>
+    <string name="copy">复制</string>
+
+    <string name="kindly_reminder">Kindly Reminder</string>
+    <string name="add_medias_into_album_tips">Medias Adding...</string>
+
+    <string name="photo_delete_from_album_mode_tips">Would you want to recover photos to original path if delete them?</string>
+    <string name="delete_with_recover">Delete and recover</string>
+    <string name="delete_without_recover">Delete without recover</string>
+    <string name="delete_without_recover_warning">Delete photos and can not recover them anymore,are your sure?</string>
+    <string name="album_name_can_not_be_empty">Album name can not be empty</string>
+    <string name="delete_album_with_recover_tips">We are recover medias to system album</string>
+    <string name="medias_added_tips">Medias added success!</string>
+
+    <string name="remove_from_album">Remove from album</string>
+
+    <string name="device_switching">设备切换中...</string>
+
+    <string name="device_changed">设备已切换到</string>
+
+    <string name="one_step">一步到云</string>
+
+</resources>

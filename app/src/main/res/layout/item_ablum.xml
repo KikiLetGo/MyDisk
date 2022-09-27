@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="5dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="26dp"
+            app:cardElevation="12dp">
+            <ImageView
+                android:id="@+id/ivCover"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/left_menu_top_banner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <RelativeLayout
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/tvAlbumName"
+                        android:textColor="@android:color/white"
+                        android:text="Ruby"
+                        android:shadowColor="@color/textColorPrimary"
+                        android:shadowRadius="3"
+                        android:shadowDx="5"
+                        android:shadowDy="5"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:padding="5dp"
+                        android:textSize="24sp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:src="@drawable/ic_crop_original"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/tvPhotoCounts"
+                            android:text="121photos"
+                            android:shadowColor="@color/textColorPrimary"
+                            android:shadowRadius="3"
+                            android:shadowDx="5"
+                            android:shadowDy="5"
+                            android:textColor="@android:color/white"
+                            android:layout_marginLeft="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+            <ImageView
+                android:id="@+id/ivEncryption"
+                android:src="@drawable/ic_enhanced_encryption"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+</LinearLayout>

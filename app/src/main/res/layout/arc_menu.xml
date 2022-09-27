@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.elexlab.mydisk.ui.wiget.arcmenu.ArcLayout
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/item_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        custom:childSize="150dip"
+        custom:fromDegrees="270.0"
+        custom:toDegrees="360.0" />
+
+    <FrameLayout
+        android:id="@+id/control_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#00000000" >
+
+        <!--<ImageView-->
+            <!--android:id="@+id/control_hint"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:duplicateParentState="true"-->
+            <!--android:src="@drawable/common_signin_btn_icon_light" />-->
+
+        <!--<com.heroescape.goodnight.ui.widget.WaterRipplesView-->
+            <!--android:id="@+id/wrvWaterRipples"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:duplicateParentState="true"-->
+            <!--android:layout_width="180dip"-->
+            <!--android:layout_height="180dip" />-->
+        <!--<com.heroescape.goodnight.ui.widget.graph.CircleBgView-->
+            <!--android:id="@+id/control_hint"-->
+            <!--app:circleBgStrokeType="fill"-->
+            <!--app:transform="false"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:duplicateParentState="true"-->
+            <!--android:layout_width="100dip"-->
+            <!--android:layout_height="100dip" />-->
+
+        <ImageView
+            android:id="@+id/control_hint"
+            android:src="@drawable/ic_add_circle"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:duplicateParentState="true"
+            />
+    </FrameLayout>
+
+</merge>

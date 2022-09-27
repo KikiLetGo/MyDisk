@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/llHeadContainer"
+    android:contentDescription="@string/app_name"
+    android:layout_gravity="center_horizontal" >
+    <ImageView
+        android:id="@+id/ivHeaderZoomView"
+        android:src="@mipmap/left_menu_top_banner"
+        android:scaleType="centerCrop"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:background="@drawable/album_header_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/ivRotateLogo"
+        android:src="@mipmap/ic_launcher"
+        android:visibility="gone"
+        android:scaleType="centerCrop"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+

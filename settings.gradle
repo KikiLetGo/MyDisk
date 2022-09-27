@@ -1,0 +1,3 @@
+include ':MyAlbum'
+include ':app'
+rootProject.name = "MyDisk"

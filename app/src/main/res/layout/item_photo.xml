@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:layout_margin="8dp"
+            android:orientation="vertical"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="6dp">
+            <ImageView
+                android:id="@+id/ivPhoto"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/left_menu_top_banner"
+                android:maxHeight="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+            <LinearLayout
+                android:id="@+id/llPlay"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="30dp"
+                    android:layout_height="30dp">
+
+                    <ImageView
+                        android:visibility="visible"
+                        android:src="@drawable/circle_trans_bg"
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <ImageView
+                        android:id="@+id/ivPlay"
+                        android:visibility="visible"
+                        android:src="@drawable/ic_play"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tvDuration"
+                    android:text="00:00"
+                    android:textColor="@color/colorPrimary"
+                    android:shadowColor="@color/colorAccent"
+                    android:shadowRadius="3"
+                    android:shadowDx="5"
+                    android:shadowDy="5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/cbChoosed"
+                android:layout_gravity="left|top"
+                android:gravity="left|top"
+                android:checked="false"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+            <RelativeLayout
+                android:id="@+id/rlCloud"
+                android:layout_gravity="right|bottom"
+                android:gravity="right|bottom"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/circle_trans_bg"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"/>
+                <ImageView
+                    android:id="@+id/ivCloud"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_baseline_cloud_off"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"/>
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </RelativeLayout>
+</LinearLayout>
